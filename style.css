@@ -1,0 +1,37 @@
+* {
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background: #111;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  text-shadow: 0 0 5px #0f0;
+}
+
+.info-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #0f0;
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  font-size: 1.1em;
+  white-space: pre-line;
+  box-shadow: 0 0 20px #0f05;
+  position: relative;
+  overflow: hidden;
+}
